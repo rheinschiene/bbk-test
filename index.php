@@ -8,7 +8,7 @@
 <?php
 $servername = "localhost";
 $username = getenv("dbuser");
-$password = getent("dbpw");
+$password = getenv("dbpw");
 echo getenv("MYSQL_SERVICE_HOST");
 // Create connection
 $conn = new mysqli($servername, $username, $password);
