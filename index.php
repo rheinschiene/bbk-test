@@ -9,9 +9,10 @@
 $servername = getenv("MYSQL_SERVICE_HOST");
 $username = getenv("dbuser");
 $password = getenv("dbpw");
+$name = getenv("dbname");
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $name);
 
 // Check connection
 if ($conn->connect_error) {
