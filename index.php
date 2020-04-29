@@ -6,10 +6,10 @@
     <h1>Test</h1>
     <p>
 <?php
-$servername = "localhost";
+$servername = getenv("MYSQL_SERVICE_HOST");
 $username = getenv("dbuser");
 $password = getenv("dbpw");
-echo getenv("MYSQL_SERVICE_HOST");
+
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 
