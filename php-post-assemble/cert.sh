@@ -22,7 +22,8 @@ tWSx/gHZCKCDhYvldLtZlLBQDNpUO6xvqSCw9xFBe0xQ3vWRSRcgF/5YQb3R0ySR
 voRXSgeXbBlfQd9WZxZ8Sh3+RZGlzB/u8dK4/GyY8+88P9JNcLJxlsaGume29KH4
 Bb9BWjnAbpO6iQ17S8STBBAGdFFjyAITFFrAhmo7MO9XZ6qa8uA0+To5XZittfnb
 usa5w3mkRo4n7Pyy9g/EPlxoyK+r79OP3WtfnfzW5Lt5
------END CERTIFICATE-----" > /opt/app-root/httpd-ssl/certs/server-cert-selfsigned111.pem
+-----END CERTIFICATE-----" > /opt/app-root/httpd-ssl/certs/server-cert-selfsigned.pem
+echo $?
 
 echo "-----BEGIN PRIVATE KEY-----
 MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDo/ulI6p2//RiY
@@ -52,3 +53,6 @@ O+l0yas27Wgmp0qbI/EZTvEGosBZbQ+P7t5bvRVA+Z1PsioS+GW7kmxk+XEJieTy
 59QBiHUL+j7dxMWN85CSf03S4tIKWEM6Q3zpWqEcAL75PBWigGPOC4YfDTwXgt55
 uPKAn5lo8s5jxA5MZgt14b4w+w==
 -----END PRIVATE KEY-----" > /opt/app-root/httpd-ssl/private/server-key.pem
+echo $?
+
+echo "Ende"
